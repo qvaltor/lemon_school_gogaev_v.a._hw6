@@ -1,0 +1,118 @@
+			@import url('');
+/*css reset*/
+			html, body, div, span, applet, object, iframe,
+			h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+			a, abbr, acronym, address, big, cite, code,
+			del, dfn, em, img, ins, kbd, q, s, samp,
+			small, strike, strong, sub, sup, tt, var,
+			b, u, i, center,
+			dl, dt, dd, ol, ul, li,
+			fieldset, form, label, legend,
+			table, caption, tbody, tfoot, thead, tr, th, td,
+			article, aside, canvas, details, embed, 
+			figure, figcaption, footer, header, hgroup, 
+			menu, nav, output, ruby, section, summary,
+			time, mark, audio, video {
+				margin: 0;
+				padding: 0;
+				border: 0;
+				font-size: 100%;
+				font: inherit;
+				vertical-align: baseline;
+			}
+			/* HTML5 display-role reset for older browsers */
+			article, aside, details, figcaption, figure, 
+			footer, header, hgroup, menu, nav, section {
+				display: block;
+			}
+			body {
+				line-height: 1;
+			}
+			ol, ul {
+				list-style: none;
+			}
+			blockquote, q {
+				quotes: none;
+			}
+			blockquote:before, blockquote:after,
+			q:before, q:after {
+				content: '';
+				content: none;
+			}
+			table {
+				border-collapse: collapse;
+				border-spacing: 0;
+			}
+/* main */
+
+	div{
+		outline: 2px solid black;
+	}
+
+	.t_cell{
+		width: 1200px;
+		margin: 0 auto;
+	}
+
+	.in_t{
+		
+		width: 400px;
+		display: table-cell;
+		padding:  50px 0;
+	}
+
+	.in_b{
+		
+		text-align: center;
+		font-size: 0;
+	}
+
+	.in_in_b{
+		
+		color:  #fff;
+		width: 600px;
+		display: inline-block;
+		vertical-align: bottom;
+	}
+	.left_cell{
+		
+		text-align: center;
+		padding:  75px 0;
+		
+	}
+	.right_cell {
+		
+		text-align: center;
+		padding:  50px 0;
+		
+	}
+	.right_cell_two_up {
+		
+		text-align: center;
+		padding:  50px 0;
+	}
+	.right_cell_two_up {
+		
+		text-align: center;
+	}
+	.right_cell_down {
+		
+		color:  #fff;
+		width: 300px;
+		display: inline-block;
+		vertical-align: bottom;
+		padding:  50px 0;
+	}
+	.in_in_b1 {
+		
+		text-align: center;
+		padding:  100px 0;
+	}
+	
+	.del {
+		width: 150px;
+		
+		/* padding:  20px 0; */
+	}
+	
+	
